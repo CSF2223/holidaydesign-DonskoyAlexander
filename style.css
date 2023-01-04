@@ -1,0 +1,156 @@
+/*
+Color Palette:
+background color:#B73E3E  
+font color: #FF1E1E  
+secondary color:#000000 
+tertiary color:#F8EDE3  
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@500&display=swap');
+
+html {
+    font-size: 62.5%; /*default font size is 16px- 16 times 62.5=10 px. Therefore 1 rem will now be equal to 10 px */
+}
+
+
+header {
+    margin:0 4rem; /*40 px total */
+    letter-spacing: 0.8rem;
+    text-align: center;
+    border-bottom:1px solid #38E54D;
+    border-right:1px solid #38E54D;
+    border-left:1px solid #38E54D;
+    padding: 0.5rem;
+    box-shadow:4px 4px 5px rgba(0,0,0,0.4);
+    text-transform: uppercase;
+    font-size:1.1rem;
+    color:#fff;
+    background-color: #1b6300;
+}
+
+body {
+    background-color: #fff;
+    color: #000000;
+    font-family: 'Noto Sans Mono', Medium;
+    margin: 0;
+    
+}
+cite {
+    font-size:2rem;
+    Color:#5e0808;
+    
+}
+p {
+    font-size: 1.5rem;
+}
+
+
+
+
+.imageCard {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin: 7rem 4rem;
+    
+    
+    
+}
+.imageCard img {
+    width: 100%;
+    height: auto;
+    border-radius:30px;
+    border-color: #1b6300;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,.19);
+    
+}
+
+.imageCard a{
+    text-decoration:none;
+    color:#F8EDE3;
+}
+
+.cardText {
+    background-color: #000000;
+    color: #000000;
+    text-align: center;
+    padding: 5rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
+
+
+
+
+.krampus{
+    color:#5e0808;
+}
+.krampus2{
+    color:#5e0808;
+    background-color: #000000;
+    text-align: center;
+    padding: 5rem;
+    font-size:1.5rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
+
+.cardText2 {
+   
+    background-color: #953553;
+    color: #fff;
+    text-align: center;
+    padding: 5rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
+.Radish{
+    color:#fff;
+}
+
+
+.idek {
+    font-size: 2rem;
+    background-color: #a10303;
+    text-align: center;
+    padding: 5rem;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,5);
+}
+
+.cardText3 {
+    background-color: #cdf2f7;
+    color: #000;
+    text-align: center;
+    padding: 5rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
+
+.spider{
+    color:#000;
+}
+
+
+@media (min-width: 768px) {
+    header {
+        font-size: 1.6rem;
+    }
+    
+    .gallery{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap:wrap;
+        }
+        
+    .imageCard {
+        max-width:28%;
+    }
+    
+}
